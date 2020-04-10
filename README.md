@@ -23,4 +23,6 @@ Under Construction, coming soon!
 ## 5, Photo App - Filter Cam  📸 🎨
 This app allows the user to take a picture and apply up to 6 filters. It utilizes Core Data and allows users to store pictures in the Gallery.
 
+![Demo](/GIFs/5_Demo.gif "Demo")
+
 * Demo Gif coming soon!
