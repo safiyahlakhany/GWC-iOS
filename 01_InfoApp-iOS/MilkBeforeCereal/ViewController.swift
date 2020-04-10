@@ -1,10 +1,13 @@
+// =============================================================================
+// file: ViewController.swift
+// project: Milk Before Cereal
+// Created by Safiyah Lakhany on 7/8/19
+// =============================================================================
 //
-//  ViewController.swift
-//  MilkBeforeCereal
+// ViewController Class
 //
-//  Created by GWC on 7/8/19.
-//  Copyright © 2019 GWC. All rights reserved.
-//
+// =============================================================================
+
 
 import UIKit
 

@@ -1,16 +1,20 @@
+// =============================================================================
+// file: AppController.swift
+// project: Milk Before Cereal
+// Created by Safiyah Lakhany on 7/8/19
+// =============================================================================
 //
-//  AppDelegate.swift
-//  MilkBeforeCereal
+// AppController Class
 //
-//  Created by GWC on 7/8/19.
-//  Copyright © 2019 GWC. All rights reserved.
-//
+// =============================================================================
+
 
 import UIKit
 import WebKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate{
+class AppDelegate: UIResponder, UIApplicationDelegate
+{
 
     var window: UIWindow?
 

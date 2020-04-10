@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MilkBeforeCereal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="NyK-wE-cHB">
-                                <rect key="frame" x="32" y="87.5" width="350" height="721.5"/>
+                                <rect key="frame" x="32" y="60.5" width="350" height="721.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RLv-Cj-aUu">
                                         <rect key="frame" x="0.0" y="0.0" width="350" height="620.5"/>
@@ -159,11 +157,11 @@
             <objects>
                 <viewController modalTransitionStyle="crossDissolve" id="vzx-oL-3kW" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KMY-zK-zn0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="mxx-oK-zU5">
-                                <rect key="frame" x="37" y="252" width="340" height="392"/>
+                                <rect key="frame" x="37" y="225" width="340" height="392"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="zVD-pv-ml0">
                                         <rect key="frame" x="0.0" y="0.0" width="340" height="392"/>
@@ -201,7 +199,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THL-Cy-Dnx">
-                                <rect key="frame" x="0.0" y="44" width="155" height="155"/>
+                                <rect key="frame" x="0.0" y="0.0" width="155" height="155"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="155" id="mZ3-ZN-Ock"/>
                                     <constraint firstAttribute="height" constant="155" id="nY9-Tq-7kH"/>
@@ -212,7 +210,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPr-4l-FhX">
-                                <rect key="frame" x="263" y="769" width="126" height="68"/>
+                                <rect key="frame" x="263" y="715" width="126" height="68"/>
                                 <color key="backgroundColor" red="0.5568627451" green="0.37647058820000001" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="126" id="XYM-wN-x1P"/>
@@ -250,11 +248,11 @@
             <objects>
                 <viewController id="mMj-Qy-b5l" customClass="GifController" customModule="MilkBeforeCereal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="omP-aE-MI3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="62" translatesAutoresizingMaskIntoConstraints="NO" id="7WT-iV-S3h">
-                                <rect key="frame" x="37" y="285.5" width="340" height="325.5"/>
+                                <rect key="frame" x="37" y="258.5" width="340" height="325.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="VHW-sb-rrh">
                                         <rect key="frame" x="0.0" y="0.0" width="340" height="71.5"/>

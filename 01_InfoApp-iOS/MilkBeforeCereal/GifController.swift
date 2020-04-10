@@ -1,10 +1,14 @@
+// =============================================================================
+// file: GifController.swift
+// project: Milk Before Cereal
+// Created by Safiyah Lakhany on 7/8/19
+// =============================================================================
 //
-//  GifController.swift
-//  MilkBeforeCereal
+// GifController Class, adds gif functionality to display the gif that
+// corresponds to each button
 //
-//  Created by Safiyah Lakhany on 7/16/19.
-//  Copyright © 2019 GWC. All rights reserved.
-//
+// =============================================================================
+
 
 import UIKit
 import WebKit
