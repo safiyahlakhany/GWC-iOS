@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MilkBeforeCereal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="NyK-wE-cHB">
-                                <rect key="frame" x="32" y="60.5" width="350" height="721.5"/>
+                                <rect key="frame" x="32" y="87.5" width="350" height="721.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RLv-Cj-aUu">
                                         <rect key="frame" x="0.0" y="0.0" width="350" height="620.5"/>
@@ -134,7 +134,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="vzx-oL-3kW" kind="show" id="vE9-4y-ppo"/>
+                                            <segue destination="vzx-oL-3kW" kind="presentation" modalPresentationStyle="fullScreen" id="vE9-4y-ppo"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -147,6 +147,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="9uY-FZ-23j"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -157,11 +158,11 @@
             <objects>
                 <viewController modalTransitionStyle="crossDissolve" id="vzx-oL-3kW" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KMY-zK-zn0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="mxx-oK-zU5">
-                                <rect key="frame" x="37" y="225" width="340" height="392"/>
+                                <rect key="frame" x="37" y="252" width="340" height="392"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="zVD-pv-ml0">
                                         <rect key="frame" x="0.0" y="0.0" width="340" height="392"/>
@@ -199,18 +200,18 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THL-Cy-Dnx">
-                                <rect key="frame" x="0.0" y="0.0" width="155" height="155"/>
+                                <rect key="frame" x="0.0" y="44" width="155" height="155"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="155" id="mZ3-ZN-Ock"/>
                                     <constraint firstAttribute="height" constant="155" id="nY9-Tq-7kH"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="Milk before Cereal Orginal"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="1GN-fX-E5P"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="1GN-fX-E5P"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPr-4l-FhX">
-                                <rect key="frame" x="263" y="715" width="126" height="68"/>
+                                <rect key="frame" x="263" y="769" width="126" height="68"/>
                                 <color key="backgroundColor" red="0.5568627451" green="0.37647058820000001" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="126" id="XYM-wN-x1P"/>
@@ -223,7 +224,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="mMj-Qy-b5l" kind="show" id="Aqx-HK-PMU"/>
+                                    <segue destination="mMj-Qy-b5l" kind="presentation" modalPresentationStyle="fullScreen" id="Aqx-HK-PMU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -238,6 +239,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="60L-bP-U2E"/>
                     </view>
+                    <navigationItem key="navigationItem" id="q4p-wF-fYp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gp8-c0-ywr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -248,11 +250,11 @@
             <objects>
                 <viewController id="mMj-Qy-b5l" customClass="GifController" customModule="MilkBeforeCereal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="omP-aE-MI3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="62" translatesAutoresizingMaskIntoConstraints="NO" id="7WT-iV-S3h">
-                                <rect key="frame" x="37" y="258.5" width="340" height="325.5"/>
+                                <rect key="frame" x="37" y="285.5" width="340" height="325.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="VHW-sb-rrh">
                                         <rect key="frame" x="0.0" y="0.0" width="340" height="71.5"/>
@@ -325,7 +327,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Milk before Cereal Orginal"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="yVp-16-DNl"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="yVp-16-DNl"/>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GuT-rf-kwO">
@@ -344,6 +346,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XJX-1O-NCy"/>
                     </view>
+                    <navigationItem key="navigationItem" id="FO0-vc-Ygr"/>
                     <connections>
                         <outlet property="webView" destination="dPS-hY-YSL" id="oLh-zF-tKd"/>
                         <outlet property="xButton" destination="GuT-rf-kwO" id="g21-yy-dON"/>
@@ -354,11 +357,11 @@
             <point key="canvasLocation" x="1573.913043478261" y="117.85714285714285"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="1GN-fX-E5P"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Milk before Cereal Orginal" width="612" height="612"/>
         <image name="X" width="512" height="512"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="1GN-fX-E5P"/>
-    </inferredMetricsTieBreakers>
 </document>
