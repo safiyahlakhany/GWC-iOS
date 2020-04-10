@@ -4,4 +4,4 @@ This Repository contains the 5 iOS apps I created while enrolled in the Girls Wh
 # 1. Info App - Milk Before Cereal
 This is the first iPhone app I created! I displays a compelling argument as to why milk should be poured before cereal. Afterwards, it gives the user a choice between "Milk First" and "Cereal First". It displays a Gordon Ramsay gif accordingly.
 
-![Demo](http://www.giphy.com/gifs/LSFDzCLPYENlNJCGZv "Demo")
+![Demo](/GIFs/1_Demo.gif "Demo")
