@@ -8,11 +8,14 @@ Milk Before Cereal is the first iPhone app I created! It displays a compelling a
 
 ## 2. Recommend App - Activity Finder 🏄🏽‍♀️ 🚴🏽‍♀️
 Activity Finder randomly recommends an activity upon the press of a button.
-![Demo](/GIFs/2_Demo.gif "Demo")
+
+![Demo](/GIFs/3_Demo.gif "Demo")
 
 ## 3. Trivia App - Star Wars Trivia ✨❓
 Star Wars Trivia displays several multiple choice trivia questions. Afterwards, it displays the user's score along with a message/picture.
-![Demo](/GIFs/3_Demo.gif "Demo")
+
+![Demo](/GIFs/2_Demo.gif "Demo")
+
 
 ## 4. To Do App - Do It: Under Construction 👷🏼‍♀️ 🚧
 Under Construction, coming soon!
