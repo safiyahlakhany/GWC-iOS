@@ -20,9 +20,9 @@ Star Wars Trivia displays several multiple choice trivia questions. Afterwards, 
 ## 4. To Do App - Do It: Under Construction 👷🏼‍♀️ 🚧
 Under Construction, coming soon!
 
-## 5, Photo App - Filter Cam  📸 🎨
+## 5. Photo App - Filter Cam  📸 🎨
 This app allows the user to take a picture and apply up to 6 filters. It utilizes Core Data and allows users to store pictures in the Gallery.
 
 ![Demo](/GIFs/5_Demo.gif "Demo")
 
-* Demo Gif coming soon!
+
