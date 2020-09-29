@@ -17,7 +17,7 @@ Star Wars Trivia displays several multiple choice trivia questions. Afterwards, 
 ![Demo](/GIFs/2_Demo.gif "Demo")
 
 
-## 4. To Do App - Do It: Under Construction 👷🏼‍♀️ 🚧
+## 4. To Do App - Do It (Under Construction 👷🏼‍♀️ 🚧)
 Under Construction, coming soon!
 
 ## 5. Photo App - Filter Cam  📸 🎨
